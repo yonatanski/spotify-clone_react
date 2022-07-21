@@ -1,0 +1,50 @@
+#topNav #arrows button:not(#menuButton) {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+  
+  #topNav #user {
+    font-size: 0.7em;
+    font-weight: 500;
+    border-radius: 30px;
+  }
+  
+  .topNav-icon{
+    background-color: rgba(252, 251, 251, 0.857);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+
+  .img1 {
+    max-width: 64px;
+    border-radius: 5px;
+  }
+
+  .music-card {
+    background-color: rgba(88, 85, 85, 0.26);
+    /* width: 100vw;
+    height: auto; */
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .playHover {
+    font-size: 40px;
+  
+
+    visibility: hidden;
+    color: #55ba55;
+    /* background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 30%,
+      rgba(85, 186, 85, 1) 70%
+    );
+    border-radius: 50%; */
+  }
+  #cardHover:hover .playHover {
+    visibility: visible;
+  }

@@ -1,7 +1,9 @@
 .sidebar{
     background-color: #000000;
     height: 100vh;
+    /* min-width: 100vw; */
     color: white;
+    padding: 0 !important;
 }
 .sidebar > .sidebar__container{
     font-weight: 450;

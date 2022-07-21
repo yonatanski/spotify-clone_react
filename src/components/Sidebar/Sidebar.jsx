@@ -10,7 +10,7 @@ import { MdFavorite } from "react-icons/md"
 
 const Sidebar = () => {
   return (
-    <Container className="sidebar">
+    <Container className="sidebar px-0">
       <div classNameName="d-flex  align-items-center">
         <img src={spoftifylogo} alt="Spotify Logo" width="150px" className="p-3" />
       </div>
