@@ -11,31 +11,40 @@ import { MdFavorite } from "react-icons/md"
 const Sidebar = () => {
   return (
     <Container className="sidebar px-0">
-      <div classNameName="d-flex  align-items-center">
-        <img src={spoftifylogo} alt="Spotify Logo" width="150px" className="p-3" />
-      </div>
+      <div className="sidebarmain_container mt-4">
+        {/* <div className="d-flex flex-column sidebar__container">
+          <i class="bi bi-three-dots mt-2 mx-2"></i>
+        </div> */}
+        <div classNameName="d-flex flex-column align-items-center">
+          <div className="icon mx-3">
+            <i class="bi bi-three-dots "></i>
+          </div>
 
-      <div className="d-flex flex-column sidebar__container">
-        <div className=" d-flex  align-items-baseline mt-2 mx-2">
-          <FaHome className="icon mx-3" />
-          <span>Home</span>
-        </div>
-        <div className=" d-flex  align-items-baseline mt-2 mx-2">
-          <AiOutlineSearch className="icon mx-3" />
-          <span>Search</span>
+          <img src={spoftifylogo} alt="Spotify Logo" width="150px" className="p-3" />
         </div>
 
-        <div className=" d-flex  align-items-baseline mt-2 mx-2">
-          <BiLibrary className="icon mx-3" />
-          <span>Library</span>
-        </div>
-        <div className=" d-flex  align-items-baseline mt-4 mx-2">
-          <RiAddBoxFill className="icon mx-3" />
-          <span>Create Playlist</span>
-        </div>
-        <div className=" d-flex  align-items-baseline mt-2  mx-2">
-          <MdFavorite className="icon mx-3" />
-          <span>Liked Songs</span>
+        <div className="d-flex flex-column sidebar__container">
+          <div className=" d-flex  align-items-baseline mt-2 mx-2">
+            <FaHome className="icon mx-3" />
+            <span>Home</span>
+          </div>
+          <div className=" d-flex  align-items-baseline mt-2 mx-2">
+            <AiOutlineSearch className="icon mx-3" />
+            <span>Search</span>
+          </div>
+
+          <div className=" d-flex  align-items-baseline mt-2 mx-2">
+            <BiLibrary className="icon mx-3" />
+            <span>Library</span>
+          </div>
+          <div className=" d-flex  align-items-baseline mt-4 mx-2">
+            <RiAddBoxFill className="icon mx-3" />
+            <span>Create Playlist</span>
+          </div>
+          <div className=" d-flex  align-items-baseline mt-2  mx-2">
+            <MdFavorite className="icon mx-3" />
+            <span>Liked Songs</span>
+          </div>
         </div>
       </div>
     </Container>

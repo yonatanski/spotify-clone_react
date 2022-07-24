@@ -4,8 +4,8 @@ margin: 0;
 background: rgb(105, 9, 9);
   background: linear-gradient(
     180deg,
-    rgba(105, 9, 9, 0.9304096638655462) 9%,
-    rgba(0, 0, 0, 1) 37%
+    rgba(105, 9, 9, 0.9304096638655462) 6%,
+    rgb(28, 27, 27) 37%
   );
   background-repeat: no-repeat;
   

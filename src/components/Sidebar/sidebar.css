@@ -1,17 +1,34 @@
 .sidebar{
     background-color: #000000;
-    height: 100vh;
+    height: 100%;
     /* min-width: 100vw; */
     color: white;
     padding: 0 !important;
+    
 }
 .sidebar > .sidebar__container{
     font-weight: 450;
+    
 }
-.sidebar > .sidebar__container :hover {
+.sidebar__container :hover {
     color: #fff;
-    background: #666;
-    border-radius: 5px;
-    font-weight: 500;
+  
+    
+    font-weight: 700;
     cursor: pointer;
   }
+  .sidebar > .sidebarmain_container{
+    position: fixed;
+}
+.icon{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.icon > .bi{
+    font-size: 22px;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+}

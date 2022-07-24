@@ -1,13 +1,19 @@
 import React from "react"
+import "./goodMorning.css"
 // import img1 from "../../assets/img/JColeKOD.jpg"
 import { Container, Col, Row } from "react-bootstrap"
-import goodmorningdata from "../../data/data"
+import { goodmorningdata } from "../../data/data.js"
 
-const UpperCard = () => {
+const GoodMorningCard = () => {
   return (
-    <Row className="mt-3">
+    <Row className="mt-3 ">
+      <Col lg={12} className="ml-0 px-0 mb-2">
+        <h4 id="display" class="  text-light">
+          Good morning
+        </h4>
+      </Col>
       {goodmorningdata.map((item, index) => (
-        <Col xs={6} md={4} lg={3} className="ml-0 px-0 mb-2" key={index}>
+        <Col xs={6} md={4} lg={3} className="ml-0 mx-n1 px-0 mb-2" key={index}>
           <div className="music-card mx-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(28, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut() ">
             <div className="media d-flex">
               <img src={item.img} className="mr-3  img1" alt="..." />
@@ -28,4 +34,4 @@ const UpperCard = () => {
   )
 }
 
-export default UpperCard
+export default GoodMorningCard

@@ -1,0 +1,40 @@
+.mediaplayerContainer {
+  background-color: rgb(19, 18, 18);
+  position: fixed;
+  right: 0%;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  height: 90px;
+}
+.imgPlayer {
+  width: 64px;
+  height: 64px;
+  border-radius: 5px;
+  /* object-fit: fill; */
+}
+.progress-bar  {
+  background-color: white !important;
+}
+.playcontroller__icon{
+  gap:20px
+}
+.playcontroller__icon--size{
+  font-size: 30px;
+  color: rgb(255, 255, 255)
+}
+.playcontroller__icon--sizeH{
+  font-size: 30px;
+  color: rgb(198, 194, 194)
+}
+.playcontroller__icon--sizeH:hover{
+  font-size: 30px;
+  color: rgb(255, 255, 255)
+}
+
+.volumeController {
+  gap:12px
+}
+.volumeController > .progress-bar {
+  background-color: rgb(255, 0, 0) !important;
+}
