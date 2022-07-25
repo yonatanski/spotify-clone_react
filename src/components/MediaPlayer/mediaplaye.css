@@ -31,6 +31,9 @@
   font-size: 30px;
   color: rgb(255, 255, 255)
 }
+.currentlyplayingicon__gap{
+  gap:12px
+} 
 
 .volumeController {
   gap:12px

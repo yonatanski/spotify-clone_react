@@ -14,7 +14,7 @@ const GoodMorningCard = () => {
       </Col>
       {goodmorningdata.map((item, index) => (
         <Col xs={6} md={4} lg={3} className="ml-0 mx-n1 px-0 mb-2" key={index}>
-          <div className="music-card mx-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(28, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut() ">
+          <div className=" music-card mx-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(28, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut() ">
             <div className="media d-flex">
               <img src={item.img} className="mr-3  img1" alt="..." />
               <div className="media-body bodyHover d-flex align-self-center justify-content-between">

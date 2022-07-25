@@ -2,7 +2,7 @@ import React from "react"
 import "./mediaplaye.css"
 
 import img1 from "../../assets/img/JColeKOD.jpg"
-import { Container, Col, Row, Div } from "react-bootstrap"
+import { Container, Col, Row } from "react-bootstrap"
 
 const MediaPlayer = () => {
   return (
@@ -11,8 +11,12 @@ const MediaPlayer = () => {
         <div className=" currentlyplayingicon d-flex ml-3 align-items-center">
           <img src={img1} className="imgPlayer" alt="currentlyplayingicon" />
           <div className="d-flex flex-column ml-2">
-            <p className="mb-0">Amatevi</p>
+            <p className="mb-0">AmateviAmateviAmateviAmatevi</p>
             <small className="text-muted">CORTEX</small>
+          </div>
+          <div className="currentlyplayingicon__gap d-flex ml-5">
+            <i class="bi bi-heart"></i>
+            <i class="bi bi-dash-circle"></i>
           </div>
         </div>
       </Col>

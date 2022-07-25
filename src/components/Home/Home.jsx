@@ -9,10 +9,10 @@ const Home = () => {
   return (
     <Container fluid>
       <Row>
-        <Col xs={2} className="px-0 ">
+        <Col xs={2} className="px-0 d-xs-none">
           <Sidebar />
         </Col>
-        <Col xs={10} className="d-flex mb-5  flex-column">
+        <Col xs={10} className="d-flex mb-5 flex-column ">
           <Topbar />
           <BigView />
         </Col>

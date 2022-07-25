@@ -7,6 +7,7 @@ import { AiOutlineSearch } from "react-icons/ai"
 import { BiLibrary } from "react-icons/bi"
 import { RiAddBoxFill } from "react-icons/ri"
 import { MdFavorite } from "react-icons/md"
+import { Link } from "react-router-dom"
 
 const Sidebar = () => {
   return (
@@ -26,12 +27,14 @@ const Sidebar = () => {
         <div className="d-flex flex-column sidebar__container">
           <div className=" d-flex  align-items-baseline mt-2 mx-2">
             <FaHome className="icon mx-3" />
-            <span>Home</span>
+            <span className="">Home</span>
           </div>
-          <div className=" d-flex  align-items-baseline mt-2 mx-2">
-            <AiOutlineSearch className="icon mx-3" />
-            <span>Search</span>
-          </div>
+          <Link>
+            <div className=" d-flex  align-items-baseline mt-2 mx-2">
+              <AiOutlineSearch className="icon mx-3" />
+              <span>Search</span>
+            </div>
+          </Link>
 
           <div className=" d-flex  align-items-baseline mt-2 mx-2">
             <BiLibrary className="icon mx-3" />
