@@ -6,8 +6,8 @@ import { Container, Col, Row } from "react-bootstrap"
 
 const MediaPlayer = () => {
   return (
-    <div className="row mediaplayerContainer mt-5 mt-4 d-flex justify-content-between align-items-center fixed-bottom text-white ">
-      <Col className="col-3">
+    <div className="row mediaplayerContainer mt-5 mt-4 d-flex justify-content-between justify-content-md-center align-items-center fixed-bottom text-white ">
+      <Col className="col-3 d-none d-sm-block">
         <div className=" currentlyplayingicon d-flex ml-3 align-items-center">
           <img src={img1} className="imgPlayer" alt="currentlyplayingicon" />
           <div className="d-flex flex-column ml-2">
@@ -22,7 +22,7 @@ const MediaPlayer = () => {
       </Col>
       <Col className="col-6 ">
         <div className=" playcontroller d-flex flex-column">
-          <div className="playcontroller__icon d-flex justify-content-center mt-1 mb-2 align-items-center">
+          <div className="playcontroller__icon d-flex justify-content-center   mt-1 mb-2 align-items-center">
             <i class="playcontroller__icon--sizeH bi bi-skip-start-fill"></i>
             <i class="playcontroller__icon--size bi bi-play-circle-fill"></i>
             <i class="playcontroller__icon--sizeH bi bi-skip-end-fill"></i>

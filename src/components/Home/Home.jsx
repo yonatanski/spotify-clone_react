@@ -1,4 +1,5 @@
 import React from "react"
+import "./home.css"
 import { Col, Row, Container } from "react-bootstrap"
 import BigView from "../BigView/BigView"
 import Topbar from "../Details/Topbar"
@@ -9,7 +10,7 @@ const Home = () => {
   return (
     <Container fluid>
       <Row>
-        <Col xs={2} className="px-0 d-xs-none">
+        <Col className="sidemenu px-0 ">
           <Sidebar />
         </Col>
         <Col xs={10} className="d-flex mb-5 flex-column ">

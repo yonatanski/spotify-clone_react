@@ -29,12 +29,12 @@ const Sidebar = () => {
             <FaHome className="icon mx-3" />
             <span className="">Home</span>
           </div>
-          <Link>
-            <div className=" d-flex  align-items-baseline mt-2 mx-2">
-              <AiOutlineSearch className="icon mx-3" />
-              <span>Search</span>
-            </div>
-          </Link>
+          {/* <Link> */}
+          <div className=" d-flex  align-items-baseline mt-2 mx-2">
+            <AiOutlineSearch className="icon mx-3" />
+            <span>Search</span>
+          </div>
+          {/* </Link> */}
 
           <div className=" d-flex  align-items-baseline mt-2 mx-2">
             <BiLibrary className="icon mx-3" />
